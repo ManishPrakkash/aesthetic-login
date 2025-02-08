@@ -1,6 +1,4 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
   function App() {
@@ -20,7 +18,6 @@ import './App.css'
         }
       }
     }, []);
-
   return (
     <>
     <div className="form">
@@ -34,7 +31,7 @@ import './App.css'
 
       <div className="input-box">
         <input id='pass' type="password" placeholder='Password' required/>
-        <i  id='icon' className='bx bxs-show' ></i>
+        <i  id='icon' className='bx bxs-hide' ></i>
       </div>
 
       <div className="remember"><label><input type="checkbox"/> Remember me</label>
@@ -43,7 +40,7 @@ import './App.css'
 
       <button type='submit' className='btn'>Login</button>
       <div className="register">
-        <p>Don't have an account? <a href="https://support.google.com/mail/answer/56256?hl=en">Register</a></p>
+        <p>Don't have an account? <a href="https://support.google.com/mail/answer/56256?hl=en">Create</a></p>
       </div>
    </form>
     </div>
