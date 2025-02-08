@@ -6,10 +6,13 @@ padding: 0px;
 box-sizing: border-box;
 font-family: "poppins",sans-serif;
 }
-body{
+body {
     display: flex;
-    margin: 35vh auto 0px auto;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: rgb(71, 71, 71);
-}
+    background: url('/landscapeBackdrop.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
