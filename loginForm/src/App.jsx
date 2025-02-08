@@ -19,11 +19,11 @@ function App() {
         <input type="password" placeholder='Password' required/>
         <i class='bx bxs-lock-alt' ></i>
       </div>
-      <div className="Remember"><label><input type="checkbox"/>Remember me</label>
+      <div className="remember"><label><input type="checkbox"/>Remember me</label>
       <a href="#">Forgot password</a>
       </div>
 
-      <button>Login</button>
+      <button type='submit' className='btn'>Login</button>
       <div className="register">
         <p>Don't have an account?<a href="#">Register</a></p>
       </div>
