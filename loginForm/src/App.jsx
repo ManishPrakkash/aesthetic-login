@@ -12,10 +12,12 @@ function App() {
       <h1>Login</h1>
 
       <div className="input-box">
-        <input type="text" placeholder='Username' />
+        <input type="text" placeholder='Username' required/>
+        <i class='bx bxs-user'></i>
       </div>
       <div className="input-box">
-        <input type="text" placeholder='Password' />
+        <input type="text" placeholder='Password' required/>
+        <i class='bx bxs-lock-alt' ></i>
       </div>
       <div className="forgot"><label><input type="checkbox"/>Remember me</label>
       <a href="#">Forgot password</a>
