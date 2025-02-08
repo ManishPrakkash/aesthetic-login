@@ -2,6 +2,8 @@
   color: #fff;
   background-color: rgb(131, 131, 131);
   width: 420px;
+  border-radius: 10px;
+  padding: 30px 40px;
 }
 
 .form h1{
@@ -70,4 +72,15 @@ top: 31%;
  }
  .register{
   font-size: 15px;
- }
+  text-align: center;
+  margin-top: 20px; 
+  margin: 20px 0 15px;  
+}
+.register p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register p a:hover{
+  text-decoration: underline;
+}
