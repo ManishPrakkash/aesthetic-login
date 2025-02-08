@@ -20,12 +20,12 @@ function App() {
         <i class='bx bxs-lock-alt' ></i>
       </div>
       <div className="remember"><label><input type="checkbox"/> Remember me</label>
-      <a href="#">Forgot password</a>
+      <a href="https://support.google.com/mail/answer/41078?hl=en&co=GENIE.Platform%3DDesktop">Forgot password</a>
       </div>
 
       <button type='submit' className='btn'>Login</button>
       <div className="register">
-        <p>Don't have an account? <a href="#">Register</a></p>
+        <p>Don't have an account? <a href="https://support.google.com/mail/answer/56256?hl=en">Register</a></p>
       </div>
    </form>
     </div>
