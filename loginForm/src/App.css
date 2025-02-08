@@ -40,5 +40,16 @@ top: 31%;
  }
  
  .Remember{
-
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: -15px 0 15px;
  }
+ .Remember label input{
+  accent-color:#fff;
+ }
+ .Remember a {
+  color: #fff;
+  text-decoration: none;
+ }
+ 
