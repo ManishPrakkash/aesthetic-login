@@ -9,7 +9,7 @@ function App() {
     <>
     <div className="form">
     <form action="/">
-      <h1>login</h1>
+      <h1>Login</h1>
 
       <div className="input-box">
         <input type="text" placeholder='Username' />
