@@ -1,1 +1,1 @@
-This is an aesthetic login form with react
+This is an modern looking login page with reactJS
