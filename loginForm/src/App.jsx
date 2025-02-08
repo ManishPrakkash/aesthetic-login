@@ -16,10 +16,10 @@ function App() {
         <i class='bx bxs-user'></i>
       </div>
       <div className="input-box">
-        <input type="text" placeholder='Password' required/>
+        <input type="password" placeholder='Password' required/>
         <i class='bx bxs-lock-alt' ></i>
       </div>
-      <div className="forgot"><label><input type="checkbox"/>Remember me</label>
+      <div className="Remember"><label><input type="checkbox"/>Remember me</label>
       <a href="#">Forgot password</a>
       </div>
 
